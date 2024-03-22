@@ -43,6 +43,23 @@ body {
 h1 {
   font-size: 47.78px;
   transition: transform 0.2s ease-in-out;
+  font-family: font-koulen, sans-serif;
+  color: white;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 39.81px;
+  transition: transform 0.2s ease-in-out;
+  font-family: font-koulen, sans-serif;
+  color: white;
+}
+
+h3 {
+  font-size: 33.18px;
+  transition: transform 0.2s ease-in-out;
+  font-family: font-koulen, sans-serif;
+  color: white;
 }
 
 h4 {
