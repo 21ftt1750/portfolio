@@ -22,12 +22,11 @@ const Contactme = () => {
         .then(
           (result) => {
             console.log(result.text);
-            // Clear the form after successful submission
+
             formRef.current?.reset();
           },
           (error) => {
             console.log(error.text);
-            // Show error message
           }
         );
     }

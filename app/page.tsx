@@ -171,10 +171,10 @@ const Page = () => {
           <div className="w-1/2  flex flex-col justify-center items-center ">
             <h2 className="font-bold">YOU CAN FIND ME ON:</h2>
             <div className=" text-white pt-28">
-              <p className="flex ">
+              <Link href="https://github.com/21ftt1750" className="flex ">
                 <Github color="#ffffff" />
                 GitHub
-              </p>
+              </Link>
 
               <p className="flex py-2">
                 <Instagram color="#ffffff" />
