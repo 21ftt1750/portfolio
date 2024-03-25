@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import logo from "../../public/images/logo.png";
 import skills from "../../public/images/skills.png";
@@ -47,17 +47,17 @@ const Aboutme = () => {
           </Link>
         </div>
       </div>
-      <div className="w-screen h-screen bg-[#7A7A1F] flex ">
-        <div className="w-1/2 mt-28  flex justify-center items-center">
+      <div className="w-screen md:h-screen bg-[#7A7A1F] flex flex-col md:flex-row  ">
+        <div className="md:w-1/2 mt-28  flex justify-center items-center">
           <div className="bg-[#181A1B] w-9/12 h-5/6">
-            <h1 className="px-10 py-10">MORE ABOUT ME</h1>
+            <h1 className="px-10 py-10">More About Me</h1>
             <p
               className="text-[#CACACA] font-mono text-justify px-10 pb-10"
               ref={typedRef}
             ></p>
           </div>
         </div>
-        <div className="w-1/2 mt-28  flex justify-center items-center">
+        <div className="md:w-1/2 mt-28  flex justify-center items-center">
           <Image src={skills} alt="skills" height={545} width={545}></Image>
         </div>
       </div>

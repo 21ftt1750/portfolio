@@ -32,7 +32,7 @@ const Page = () => {
       setFullText((prevText) =>
         prevText === "designer" ? "developer" : "designer"
       );
-    }, 3000);
+    }, 2000);
 
     return () => clearInterval(interval);
   }, []);
@@ -67,6 +67,7 @@ const Page = () => {
               <p>IM A FRONT-END WEB&nbsp;</p>
               <p className="glitch">{glitchText.toUpperCase()}</p>
             </h1>
+
             <ScrollLink to="aboutmesection" smooth={true} duration={500}>
               <button className="border-[#E33C5D] hover:bg-[#FF0032] hover:border-[#FF0032] border-4 py-3 px-5 rounded-2xl w-64 flex justify-center animate-bounce font-roboto">
                 LETS TAKE A LOOK...
@@ -176,14 +177,15 @@ const Page = () => {
                 GitHub
               </Link>
 
-              <p className="flex py-2">
+              <Link href="https://www.instagram.com/" className="flex py-2">
                 <Instagram color="#ffffff" />
                 Instagram
-              </p>
-              <p className="flex ">
+              </Link>
+
+              <Link href="https://www.facebook.com/" className="flex ">
                 <Facebook color="#ffffff" />
                 Facebook
-              </p>
+              </Link>
             </div>
           </div>
         </div>

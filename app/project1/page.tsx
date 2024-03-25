@@ -75,7 +75,7 @@ const Page = () => {
           />
           <Link
             href="http://marketbn.tech/"
-            className=" hover:bg-[#FF0032] hover:border-[#FF0032] hover:animate-pulse   font-roboto border-[#E33C5D] border-4 py-3 px-3 mt-10 rounded-2xl  text-white w-40 flex justify-center"
+            className=" hover:bg-[#FF0032] hover:border-[#FF0032] hover:animate-pulse font-roboto border-[#E33C5D] border-4 py-3 px-3 mt-10 rounded-2xl  text-white w-40 flex justify-center"
           >
             visit
           </Link>
