@@ -40,7 +40,7 @@ const Page = () => {
   return (
     <>
       <div className="bg-[#181A1B]">
-        <div className="mt-16 h-screen w-full bg-black">
+        <div className="mt-16 h-[calc(100vh-112px)] w-full bg-black">
           <div className="ml-48 flex h-full w-8/12 flex-col justify-center font-bold text-white">
             <h1 className="">HEY THERE, MY NAME IS MUIN</h1>
             <h1 style={{ width: "100%" }} className="flex py-5">

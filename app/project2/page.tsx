@@ -44,7 +44,7 @@ const Page = () => {
 
   return (
     <>
-      <div className="flex h-screen  w-screen flex-col bg-[#181A1B] pt-28">
+      <div className="flex h-[calc(100vh-112px)]  w-screen flex-col bg-[#181A1B] ">
         <div className="mt-6 flex w-full items-center  justify-center  ">
           <Link href="/project1" className="text-white">
             {" "}
