@@ -70,7 +70,7 @@ const Page = () => {
             exciting projects!
           </p>
           <Link
-            href="/AboutMe"
+            href="/aboutme"
             className="flex w-64 justify-center rounded-2xl border-4 border-[#E33C5D] px-5 py-3 font-roboto text-white hover:animate-pulse hover:border-[#FF0032] hover:bg-[#FF0032]"
           >
             view more

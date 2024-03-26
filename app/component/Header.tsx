@@ -15,7 +15,7 @@ function Header() {
           </div>
         </div>
         <div className="flex h-full items-center space-x-16 text-white">
-          <Link href="/AboutMe">
+          <Link href="/aboutme">
             <h4>About me</h4>
           </Link>
           <Link href="/project1">
