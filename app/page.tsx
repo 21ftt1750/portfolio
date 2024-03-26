@@ -81,7 +81,7 @@ const Page = () => {
           className="w-full h-screen bg-[#7A7A1F] flex flex-col justify-center items-center"
         >
           <h1 className=" font-koulen font-bold text-white">ABOUT ME</h1>
-          <p className="text-[#CACACA] w-1/2 py-16 text-justify font-roboto">
+          <p className="text-[#CACACA] w-2/3  py-16 text-justify font-roboto">
             Im a web developer with a creative flair and a strong work ethic. I
             love turning cool ideas into awesome websites, and Im all about
             getting things done efficiently without sacrificing quality. Im
@@ -100,8 +100,15 @@ const Page = () => {
           <h1 className="text-white  flex justify-center py-20">PROJECTS</h1>
           <div className="grid grid-cols-2 grid-rows-2 gap-8 gap-y-20 ">
             <div className=" flex flex-col items-center justify-start">
-              <Image src={marketdp} height={450} width={450} alt=""></Image>
-              <h2 className="text-white flex justify-center mr-12 py-6">
+              <Image
+                src={marketdp}
+                height={450}
+                width={450}
+                alt=""
+                className="transition-transform duration-300 transform hover:-translate-y-10"
+              />
+
+              <h2 className="text-white flex justify-center mr-12 py-6 ">
                 Marketbn
               </h2>
               <p className="text-[#CACACA] w-9/12 text-justify font-roboto">
@@ -117,8 +124,14 @@ const Page = () => {
               </Link>
             </div>
             <div className=" flex flex-col items-center justify-start">
-              <Image src={neflixdp} height={450} width={450} alt=""></Image>
-              <h2 className="text-white flex justify-center mr-12 py-6">
+              <Image
+                src={neflixdp}
+                height={450}
+                width={450}
+                alt=""
+                className="transition-transform duration-300 transform hover:-translate-y-10"
+              ></Image>
+              <h2 className="text-white flex justify-center mr-12 py-6 ">
                 Netflix Replica
               </h2>
               <p className="text-[#CACACA] w-9/12 text-justify font-roboto">
@@ -133,7 +146,13 @@ const Page = () => {
               </Link>
             </div>
             <div className=" flex flex-col items-center justify-start">
-              <Image src={todododp} height={450} width={450} alt=""></Image>
+              <Image
+                src={todododp}
+                height={450}
+                width={450}
+                alt=""
+                className="transition-transform duration-300 transform hover:-translate-y-10"
+              ></Image>
               <h2 className="text-white flex justify-center mr-12 py-6">
                 Tododo
               </h2>

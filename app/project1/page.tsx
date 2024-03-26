@@ -64,39 +64,39 @@ const Page = () => {
           </Link>
         </div>
       </div>
-      <div className="w-screen h-screen  bg-[#181A1B] flex pt-28">
-        <div className="w-1/2 h-full flex flex-col justify-center items-center pt-6 ">
-          <h1>Project#1</h1>
-          <Carousel
-            slides={slides}
-            carouselWidth={"30rem"}
-            effect="slide"
-            showControlArrow={false}
-          />
-          <Link
-            href="http://marketbn.tech/"
-            className=" hover:bg-[#FF0032] hover:border-[#FF0032] hover:animate-pulse font-roboto border-[#E33C5D] border-4 py-3 px-3 mt-10 rounded-2xl  text-white w-40 flex justify-center"
-          >
-            visit
+      <div className="w-screen h-screen  bg-[#181A1B] flex flex-col pt-28">
+        <div className="flex items-center w-full justify-center  mt-6  ">
+          <Link href="/project3" className="text-white">
+            {" "}
+            <ChevronLeft size={50} />
+          </Link>
+          <h1 className="flex items-center ">MARKETBN</h1>
+          <Link href="/project2" className="text-white">
+            {" "}
+            <ChevronRight size={50} />
           </Link>
         </div>
-        <div className="w-1/2 h-full ">
-          <div className="flex items-center  mt-6  ">
-            <Link href="/project3" className="text-white">
-              {" "}
-              <ChevronLeft size={50} />
-            </Link>
-            <h1 className="flex items-center ">MARKETBN</h1>
-            <Link href="/project2" className="text-white">
-              {" "}
-              <ChevronRight size={50} />
+        <div className="flex">
+          <div className="w-1/2 h-full flex flex-col justify-center items-center pt-8 ">
+            <Carousel
+              slides={slides}
+              carouselWidth={"30rem"}
+              effect="slide"
+              showControlArrow={false}
+            />
+            <Link
+              href="http://marketbn.tech/"
+              className=" hover:bg-[#FF0032] hover:border-[#FF0032] hover:animate-pulse font-roboto border-[#E33C5D] border-4 py-3 px-3 mt-8 rounded-2xl  text-white w-40 flex justify-center"
+            >
+              visit
             </Link>
           </div>
-
-          <p
-            className="text-[#CACACA] font-roboto mt-6 text-justify mr-36"
-            ref={typedRef}
-          ></p>
+          <div className="w-1/2 h-full ">
+            <p
+              className="text-[#CACACA] font-roboto mt-6 text-justify mr-36"
+              ref={typedRef}
+            ></p>
+          </div>
         </div>
       </div>
     </>

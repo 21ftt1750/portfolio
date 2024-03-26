@@ -49,7 +49,7 @@ const Aboutme = () => {
       </div>
       <div className="w-screen md:h-screen bg-[#7A7A1F] flex flex-col md:flex-row  ">
         <div className="md:w-1/2 mt-28  flex justify-center items-center">
-          <div className="bg-[#181A1B] w-9/12 h-5/6">
+          <div className="bg-[#181A1B] w-9/12 h-5/6 transition-transform duration-300 transform hover:-translate-y-6">
             <h1 className="px-10 py-10">More About Me</h1>
             <p
               className="text-[#CACACA] font-mono text-justify px-10 pb-10"
@@ -58,7 +58,13 @@ const Aboutme = () => {
           </div>
         </div>
         <div className="md:w-1/2 mt-28  flex justify-center items-center">
-          <Image src={skills} alt="skills" height={545} width={545}></Image>
+          <Image
+            src={skills}
+            alt="skills"
+            height={545}
+            width={545}
+            className="transition-transform duration-300 transform hover:-translate-y-6"
+          ></Image>
         </div>
       </div>
     </>
