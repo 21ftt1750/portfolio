@@ -40,26 +40,6 @@ const Page = () => {
   return (
     <>
       <div className="bg-[#181A1B]">
-        <div className="navbar w-full h-28 flex bg-black fixed top-0 z-10 font-roboto transition-top duration-300">
-          <div className="w-1/2 h-full">
-            <div className="w-2/6 items-center h-full flex justify-center">
-              <Link href="./">
-                <Image src={logo} alt="logo" className="w-24" />
-              </Link>
-            </div>
-          </div>
-          <div className="w-1/2 justify-between h-full text-white flex items-center px-28">
-            <Link href="/aboutme">
-              <h4>About me</h4>
-            </Link>
-            <Link href="/project1">
-              <h4>Projects</h4>
-            </Link>
-            <Link href="/contactme">
-              <h4>Contact Information</h4>
-            </Link>
-          </div>
-        </div>
         <div className="mt-16 bg-black h-screen w-full">
           <div className="w-8/12 h-full flex flex-col justify-center ml-48 text-white font-bold">
             <h1 className="">HEY THERE, MY NAME IS MUIN</h1>
