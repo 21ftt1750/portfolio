@@ -44,8 +44,8 @@ const Page = () => {
 
   return (
     <>
-      <div className="w-screen h-screen  bg-[#181A1B] flex flex-col pt-28">
-        <div className="flex items-center w-full justify-center  mt-6  ">
+      <div className="flex h-screen  w-screen flex-col bg-[#181A1B] pt-28">
+        <div className="mt-6 flex w-full items-center  justify-center  ">
           <Link href="/project3" className="text-white">
             {" "}
             <ChevronLeft size={50} />
@@ -57,7 +57,7 @@ const Page = () => {
           </Link>
         </div>
         <div className="flex">
-          <div className="w-1/2 h-full flex flex-col justify-center items-center pt-8 ">
+          <div className="flex h-full w-1/2 flex-col items-center justify-center pt-8 ">
             <Carousel
               slides={slides}
               carouselWidth={"30rem"}
@@ -66,14 +66,14 @@ const Page = () => {
             />
             <Link
               href="http://marketbn.tech/"
-              className=" hover:bg-[#FF0032] hover:border-[#FF0032] hover:animate-pulse font-roboto border-[#E33C5D] border-4 py-3 px-3 mt-8 rounded-2xl  text-white w-40 flex justify-center"
+              className=" mt-8 flex w-40 justify-center rounded-2xl border-4 border-[#E33C5D] px-3 py-3 font-roboto  text-white hover:animate-pulse hover:border-[#FF0032] hover:bg-[#FF0032]"
             >
               visit
             </Link>
           </div>
-          <div className="w-1/2 h-full ">
+          <div className="h-full w-1/2 ">
             <p
-              className="text-[#CACACA] font-roboto mt-6 text-justify mr-36"
+              className="mr-36 mt-6 text-justify font-roboto text-[#CACACA]"
               ref={typedRef}
             ></p>
           </div>
