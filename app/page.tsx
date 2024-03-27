@@ -170,7 +170,7 @@ const Page = () => {
 
           <div className="flex  w-1/2 flex-col items-center justify-center ">
             <h2 className="font-bold">YOU CAN FIND ME ON:</h2>
-            <div className=" pt-28 text-white">
+            <div className="flex w-8/12 flex-col items-start  pt-28 text-white">
               <Link href="https://github.com/21ftt1750" className="flex ">
                 <Github color="#ffffff" />
                 GitHub
